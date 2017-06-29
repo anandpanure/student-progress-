@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package studentprogresstracking;
+package studentprogresstracking.classes;
 
 import com.mongodb.BasicDBList;
 import com.mongodb.BasicDBObject;
@@ -188,97 +188,97 @@ public class ViewDetails extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Name:");
         jPanel2.add(jLabel2);
-        jLabel2.setBounds(160, 28, 50, 17);
+        jLabel2.setBounds(160, 28, 43, 19);
 
         jLabel3.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("RollNO:");
         jPanel2.add(jLabel3);
-        jLabel3.setBounds(155, 76, 57, 17);
+        jLabel3.setBounds(155, 76, 52, 19);
 
         jLabel5.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Department:");
         jPanel2.add(jLabel5);
-        jLabel5.setBounds(113, 226, 99, 17);
+        jLabel5.setBounds(113, 226, 86, 19);
 
         jLabel4.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Division:");
         jPanel2.add(jLabel4);
-        jLabel4.setBounds(142, 320, 67, 17);
+        jLabel4.setBounds(142, 320, 61, 19);
 
         jLabel6.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Year:");
         jPanel2.add(jLabel6);
-        jLabel6.setBounds(167, 271, 42, 17);
+        jLabel6.setBounds(167, 271, 37, 19);
 
         jLabel24.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("Blood Group:");
         jPanel2.add(jLabel24);
-        jLabel24.setBounds(105, 361, 104, 17);
+        jLabel24.setBounds(105, 361, 93, 19);
 
         jLabel14.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("MobileNo:");
         jPanel2.add(jLabel14);
-        jLabel14.setBounds(581, 28, 78, 17);
+        jLabel14.setBounds(581, 28, 71, 19);
 
         jLabel15.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("Email ID:");
         jPanel2.add(jLabel15);
-        jLabel15.setBounds(593, 70, 66, 17);
+        jLabel15.setBounds(593, 70, 59, 19);
 
         jLabel16.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Date of Birth:");
         jPanel2.add(jLabel16);
-        jLabel16.setBounds(554, 227, 105, 17);
+        jLabel16.setBounds(554, 227, 92, 19);
 
         jLabel20.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Address:");
         jPanel2.add(jLabel20);
-        jLabel20.setBounds(522, 273, 82, 17);
+        jLabel20.setBounds(522, 273, 82, 19);
 
         jLabel21.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText("Area:");
         jPanel2.add(jLabel21);
-        jLabel21.setBounds(616, 273, 43, 17);
+        jLabel21.setBounds(616, 273, 36, 19);
 
         jLabel22.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("City:");
         jPanel2.add(jLabel22);
-        jLabel22.setBounds(623, 320, 36, 17);
+        jLabel22.setBounds(623, 320, 30, 19);
 
         jLabel23.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText("PinCode:");
         jPanel2.add(jLabel23);
-        jLabel23.setBounds(588, 359, 71, 17);
+        jLabel23.setBounds(588, 359, 63, 19);
 
         jLabel7.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Father's Name:");
         jPanel2.add(jLabel7);
-        jLabel7.setBounds(93, 118, 119, 17);
+        jLabel7.setBounds(93, 118, 104, 19);
 
         jLabel11.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Mother's Name:");
         jPanel2.add(jLabel11);
-        jLabel11.setBounds(88, 179, 124, 17);
+        jLabel11.setBounds(88, 179, 109, 19);
 
         jLabel17.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Father's MobileNo:");
         jPanel2.add(jLabel17);
-        jLabel17.setBounds(510, 127, 149, 17);
+        jLabel17.setBounds(510, 127, 149, 19);
 
         pdiv.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         pdiv.setForeground(new java.awt.Color(255, 255, 255));
@@ -380,7 +380,7 @@ public class ViewDetails extends javax.swing.JFrame {
         jLabel36.setForeground(new java.awt.Color(255, 255, 255));
         jLabel36.setText("Mother's MobileNo:");
         jPanel2.add(jLabel36);
-        jLabel36.setBounds(506, 184, 152, 17);
+        jLabel36.setBounds(506, 184, 137, 19);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/studentprogresstracking/ed9362deab44ad42b136b654470bbf1d.jpg"))); // NOI18N
         jPanel2.add(jLabel1);
@@ -402,7 +402,7 @@ public class ViewDetails extends javax.swing.JFrame {
             }
         });
         jPanel3.add(feradiobtn);
-        feradiobtn.setBounds(168, 24, 65, 18);
+        feradiobtn.setBounds(168, 24, 65, 27);
 
         seradiobtn.setBackground(new Color(0,0,0,0));
         buttonGroup1.add(seradiobtn);
@@ -411,7 +411,7 @@ public class ViewDetails extends javax.swing.JFrame {
         seradiobtn.setText("SE");
         seradiobtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel3.add(seradiobtn);
-        seradiobtn.setBounds(280, 24, 58, 18);
+        seradiobtn.setBounds(280, 24, 58, 27);
 
         teradiobtn.setBackground(new Color(0,0,0,0));
         buttonGroup1.add(teradiobtn);
@@ -420,7 +420,7 @@ public class ViewDetails extends javax.swing.JFrame {
         teradiobtn.setText("TE");
         teradiobtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel3.add(teradiobtn);
-        teradiobtn.setBounds(407, 24, 46, 18);
+        teradiobtn.setBounds(407, 24, 46, 27);
 
         beradiobtn.setBackground(new Color(0,0,0,0));
         buttonGroup1.add(beradiobtn);
@@ -429,7 +429,7 @@ public class ViewDetails extends javax.swing.JFrame {
         beradiobtn.setText("BE");
         beradiobtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel3.add(beradiobtn);
-        beradiobtn.setBounds(536, 24, 81, 18);
+        beradiobtn.setBounds(536, 24, 81, 27);
 
         showmarksbtn.setBackground(new java.awt.Color(0, 51, 153));
         showmarksbtn.setFont(new java.awt.Font("DejaVu Sans", 1, 12)); // NOI18N
@@ -442,7 +442,7 @@ public class ViewDetails extends javax.swing.JFrame {
             }
         });
         jPanel3.add(showmarksbtn);
-        showmarksbtn.setBounds(669, 20, 139, 27);
+        showmarksbtn.setBounds(669, 20, 139, 25);
 
         jPanel6.setBackground(new Color(0,0,51,100));
 
@@ -554,7 +554,7 @@ public class ViewDetails extends javax.swing.JFrame {
         );
 
         jPanel3.add(jPanel5);
-        jPanel5.setBounds(88, 91, 397, 258);
+        jPanel5.setBounds(88, 91, 0, 0);
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/studentprogresstracking/ed9362deab44ad42b136b654470bbf1d.jpg"))); // NOI18N
         jPanel3.add(jLabel8);

@@ -1,5 +1,7 @@
-package studentprogresstracking;
+package studentprogresstracking.classes;
 
+import studentprogresstracking.classes.Login;
+import studentprogresstracking.classes.MentorLogin;
 import java.awt.Color;
 
 /*

@@ -1,4 +1,4 @@
-package studentprogresstracking;
+package studentprogresstracking.classes;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -136,7 +136,7 @@ public class MentorLogin extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("(Your e-mail)");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(690, 250, 100, 15);
+        jLabel4.setBounds(690, 250, 100, 16);
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/studentprogresstracking/w5.jpg"))); // NOI18N
         jPanel1.add(jLabel5);

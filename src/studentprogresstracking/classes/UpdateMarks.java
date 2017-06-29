@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package studentprogresstracking;
+package studentprogresstracking.classes;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -281,7 +281,7 @@ public class UpdateMarks extends javax.swing.JFrame {
         );
 
         jPanel2.add(jPanel6);
-        jPanel6.setBounds(50, 0, 415, 450);
+        jPanel6.setBounds(50, 0, 0, 450);
 
         jPanel7.setBackground(new Color(51,0,0,150));
 
@@ -378,7 +378,7 @@ public class UpdateMarks extends javax.swing.JFrame {
         );
 
         jPanel2.add(jPanel7);
-        jPanel7.setBounds(521, -3, 422, 450);
+        jPanel7.setBounds(521, -3, 0, 450);
 
         jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/studentprogresstracking/bigstock-Old-grunge-brick-wall-backgrou-47476903.jpg"))); // NOI18N
         jPanel2.add(jLabel49);
@@ -484,7 +484,7 @@ public class UpdateMarks extends javax.swing.JFrame {
         );
 
         jPanel3.add(jPanel8);
-        jPanel8.setBounds(70, 0, 372, 450);
+        jPanel8.setBounds(70, 0, 0, 450);
 
         jPanel9.setBackground(new Color(51,0,0,150));
 
@@ -583,7 +583,7 @@ public class UpdateMarks extends javax.swing.JFrame {
         );
 
         jPanel3.add(jPanel9);
-        jPanel9.setBounds(530, 0, 407, 450);
+        jPanel9.setBounds(530, 0, 0, 450);
 
         jLabel50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/studentprogresstracking/bigstock-Old-grunge-brick-wall-backgrou-47476903.jpg"))); // NOI18N
         jPanel3.add(jLabel50);
@@ -691,7 +691,7 @@ public class UpdateMarks extends javax.swing.JFrame {
         );
 
         jPanel4.add(jPanel10);
-        jPanel10.setBounds(50, 0, 433, 450);
+        jPanel10.setBounds(50, 0, 0, 450);
 
         jPanel11.setBackground(new Color(51,0,0,150));
 
@@ -894,7 +894,7 @@ public class UpdateMarks extends javax.swing.JFrame {
         );
 
         jPanel5.add(jPanel12);
-        jPanel12.setBounds(60, 0, 392, 450);
+        jPanel12.setBounds(60, 0, 0, 450);
 
         jPanel13.setBackground(new Color(51,0,0,150));
 
@@ -992,7 +992,7 @@ public class UpdateMarks extends javax.swing.JFrame {
         );
 
         jPanel5.add(jPanel13);
-        jPanel13.setBounds(540, -4, 402, 450);
+        jPanel13.setBounds(540, -4, 0, 450);
 
         jLabel52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/studentprogresstracking/bigstock-Old-grunge-brick-wall-backgrou-47476903.jpg"))); // NOI18N
         jPanel5.add(jLabel52);

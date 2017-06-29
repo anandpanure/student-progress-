@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package studentprogresstracking;
+package studentprogresstracking.classes;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -13,6 +13,9 @@ import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
 import java.awt.Color;
 import javax.swing.JOptionPane;
+//import javax.swing.JOptiimport import javax.swing.JOptionPane;
+//studentprogresstracking.main;
+//onPane;
 
 /**
  *
@@ -95,7 +98,7 @@ public class Login extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("PASSWORD");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(230, 250, 170, 43);
+        jLabel5.setBounds(230, 250, 170, 32);
 
         signupbtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/studentprogresstracking/signupbutton.png"))); // NOI18N
         signupbtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));

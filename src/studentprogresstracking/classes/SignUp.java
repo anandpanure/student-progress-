@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package studentprogresstracking;
+package studentprogresstracking.classes;
 
 
 import javax.swing.JTextField;
@@ -121,43 +121,41 @@ public class SignUp extends javax.swing.JFrame {
 
         jPanel4.setBackground(new Color(0,0,0,150));
 
-        jTabbedPane1.setBorder(null);
-
         jPanel1.setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("RollNO:");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(120, 140, 120, 22);
+        jLabel1.setBounds(120, 140, 120, 24);
 
         jLabel2.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Name:");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(130, 100, 90, 22);
+        jLabel2.setBounds(130, 100, 90, 24);
 
         jLabel3.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Division:");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(110, 230, 130, 22);
+        jLabel3.setBounds(110, 230, 130, 24);
 
         jLabel4.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Year:");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(140, 270, 60, 22);
+        jLabel4.setBounds(140, 270, 60, 24);
 
         jLabel5.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Department:");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(70, 190, 130, 22);
+        jLabel5.setBounds(70, 190, 130, 24);
         jPanel1.add(studentname);
-        studentname.setBounds(210, 100, 181, 27);
+        studentname.setBounds(210, 100, 181, 22);
         jPanel1.add(studentrollno);
-        studentrollno.setBounds(210, 140, 181, 27);
+        studentrollno.setBounds(210, 140, 181, 22);
 
         departmentSelectComboBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -165,13 +163,13 @@ public class SignUp extends javax.swing.JFrame {
             }
         });
         jPanel1.add(departmentSelectComboBox);
-        departmentSelectComboBox.setBounds(210, 190, 110, 25);
+        departmentSelectComboBox.setBounds(210, 190, 110, 22);
 
         jPanel1.add(divisionComboBox);
-        divisionComboBox.setBounds(210, 230, 70, 25);
+        divisionComboBox.setBounds(210, 230, 70, 22);
 
         jPanel1.add(yearComboBox);
-        yearComboBox.setBounds(210, 270, 70, 25);
+        yearComboBox.setBounds(210, 270, 70, 22);
 
         savestudentdetailsbtn.setBackground(new java.awt.Color(0, 0, 0));
         savestudentdetailsbtn.setFont(new java.awt.Font("DejaVu Sans", 1, 12)); // NOI18N
@@ -190,23 +188,23 @@ public class SignUp extends javax.swing.JFrame {
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("MobileNo:");
         jPanel1.add(jLabel14);
-        jLabel14.setBounds(560, 100, 140, 22);
+        jLabel14.setBounds(560, 100, 140, 24);
 
         jLabel15.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("Email ID:");
         jPanel1.add(jLabel15);
-        jLabel15.setBounds(570, 150, 130, 22);
+        jLabel15.setBounds(570, 150, 130, 24);
         jPanel1.add(studentmobile);
-        studentmobile.setBounds(660, 100, 181, 27);
+        studentmobile.setBounds(660, 100, 181, 22);
         jPanel1.add(studentemail);
-        studentemail.setBounds(660, 140, 181, 27);
+        studentemail.setBounds(660, 140, 181, 22);
 
         jLabel16.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Date of Birth:");
         jPanel1.add(jLabel16);
-        jLabel16.setBounds(520, 190, 180, 22);
+        jLabel16.setBounds(520, 190, 180, 24);
 
         jLabel17.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
@@ -214,61 +212,61 @@ public class SignUp extends javax.swing.JFrame {
         jPanel1.add(jLabel17);
         jLabel17.setBounds(20, 10, 250, 15);
         jPanel1.add(jDateChooser1);
-        jDateChooser1.setBounds(660, 180, 178, 27);
+        jDateChooser1.setBounds(660, 180, 178, 22);
 
         jLabel19.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Confirm Pasw:");
         jPanel1.add(jLabel19);
-        jLabel19.setBounds(60, 400, 150, 22);
+        jLabel19.setBounds(60, 400, 150, 24);
 
         jLabel20.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Address:");
         jPanel1.add(jLabel20);
-        jLabel20.setBounds(500, 230, 110, 22);
+        jLabel20.setBounds(500, 230, 110, 24);
 
         jLabel21.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText("Area:");
         jPanel1.add(jLabel21);
-        jLabel21.setBounds(600, 230, 90, 22);
+        jLabel21.setBounds(600, 230, 90, 24);
 
         jLabel22.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("City:");
         jPanel1.add(jLabel22);
-        jLabel22.setBounds(610, 270, 90, 22);
+        jLabel22.setBounds(610, 270, 90, 24);
 
         jLabel23.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText("PinCode:");
         jPanel1.add(jLabel23);
-        jLabel23.setBounds(570, 310, 130, 22);
+        jLabel23.setBounds(570, 310, 130, 24);
         jPanel1.add(studentarea);
-        studentarea.setBounds(660, 230, 130, 27);
+        studentarea.setBounds(660, 230, 130, 22);
         jPanel1.add(studentcity);
-        studentcity.setBounds(660, 270, 130, 27);
+        studentcity.setBounds(660, 270, 130, 22);
         jPanel1.add(studentpincode);
-        studentpincode.setBounds(660, 310, 140, 27);
+        studentpincode.setBounds(660, 310, 140, 22);
 
         jLabel24.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("Blood Group:");
         jPanel1.add(jLabel24);
-        jLabel24.setBounds(70, 320, 170, 22);
+        jLabel24.setBounds(70, 320, 170, 24);
         jPanel1.add(studentbldgroup);
-        studentbldgroup.setBounds(210, 320, 72, 27);
+        studentbldgroup.setBounds(210, 320, 72, 22);
         jPanel1.add(studentconfirmpassw);
-        studentconfirmpassw.setBounds(210, 400, 180, 27);
+        studentconfirmpassw.setBounds(210, 400, 180, 22);
 
         jLabel27.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel27.setForeground(new java.awt.Color(255, 255, 255));
         jLabel27.setText("Password:");
         jPanel1.add(jLabel27);
-        jLabel27.setBounds(100, 360, 140, 22);
+        jLabel27.setBounds(100, 360, 140, 24);
         jPanel1.add(studentpassword);
-        studentpassword.setBounds(210, 360, 180, 27);
+        studentpassword.setBounds(210, 360, 180, 22);
 
         jPanel3.setBackground(new Color(0,0,0,120));
 
@@ -298,63 +296,63 @@ public class SignUp extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Father's Name:");
         jPanel2.add(jLabel6);
-        jLabel6.setBounds(120, 100, 160, 22);
+        jLabel6.setBounds(120, 100, 160, 24);
 
         jLabel7.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("MobileNo:");
         jPanel2.add(jLabel7);
-        jLabel7.setBounds(170, 150, 101, 22);
+        jLabel7.setBounds(170, 150, 89, 24);
 
         jLabel8.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Address");
         jPanel2.add(jLabel8);
-        jLabel8.setBounds(130, 190, 83, 22);
+        jLabel8.setBounds(130, 190, 73, 24);
 
         jLabel9.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Mother's Name:");
         jPanel2.add(jLabel9);
-        jLabel9.setBounds(460, 100, 160, 22);
+        jLabel9.setBounds(460, 100, 138, 24);
 
         jLabel10.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("MobileNo:");
         jPanel2.add(jLabel10);
-        jLabel10.setBounds(520, 150, 101, 22);
+        jLabel10.setBounds(520, 150, 89, 24);
         jPanel2.add(fathername);
-        fathername.setBounds(280, 100, 160, 27);
+        fathername.setBounds(280, 100, 160, 22);
         jPanel2.add(fathermobile);
-        fathermobile.setBounds(280, 150, 119, 27);
+        fathermobile.setBounds(280, 150, 119, 22);
         jPanel2.add(addrarea);
-        addrarea.setBounds(280, 190, 119, 27);
+        addrarea.setBounds(280, 190, 119, 22);
         jPanel2.add(mothername);
-        mothername.setBounds(640, 100, 180, 27);
+        mothername.setBounds(640, 100, 180, 22);
         jPanel2.add(mothermobile);
-        mothermobile.setBounds(640, 150, 119, 27);
+        mothermobile.setBounds(640, 150, 119, 22);
 
         jLabel11.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Area:");
         jPanel2.add(jLabel11);
-        jLabel11.setBounds(220, 190, 54, 22);
+        jLabel11.setBounds(220, 190, 48, 24);
 
         jLabel12.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("City:");
         jPanel2.add(jLabel12);
-        jLabel12.setBounds(227, 230, 50, 22);
+        jLabel12.setBounds(227, 230, 50, 24);
 
         jLabel13.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("PinCode:");
         jPanel2.add(jLabel13);
-        jLabel13.setBounds(190, 270, 100, 22);
+        jLabel13.setBounds(190, 270, 100, 24);
         jPanel2.add(addrcity);
-        addrcity.setBounds(280, 230, 119, 27);
+        addrcity.setBounds(280, 230, 119, 22);
         jPanel2.add(addrpincode);
-        addrpincode.setBounds(280, 270, 119, 27);
+        addrpincode.setBounds(280, 270, 119, 22);
 
         jLabel18.setFont(new java.awt.Font("DejaVu Sans", 0, 14)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(255, 255, 255));

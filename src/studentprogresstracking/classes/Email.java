@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package studentprogresstracking;
+package studentprogresstracking.classes;
 
 import javax.mail.*;
 import javax.activation.*;

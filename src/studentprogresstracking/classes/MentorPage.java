@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package studentprogresstracking;
+package studentprogresstracking.classes;
 
+import studentprogresstracking.classes.Email;
 import com.mongodb.BasicDBList;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -164,7 +165,7 @@ public class MentorPage extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Qualification:");
         jPanel2.add(jLabel4);
-        jLabel4.setBounds(110, 170, 136, 24);
+        jLabel4.setBounds(110, 170, 116, 24);
 
         jLabel6.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
@@ -182,39 +183,38 @@ public class MentorPage extends javax.swing.JFrame {
         mentorid.setForeground(new java.awt.Color(255, 255, 255));
         mentorid.setText("jLabel5");
         jPanel2.add(mentorid);
-        mentorid.setBounds(260, 90, 440, 22);
+        mentorid.setBounds(260, 90, 440, 24);
 
         mentorname.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         mentorname.setForeground(new java.awt.Color(255, 255, 255));
         mentorname.setText("jLabel5");
         jPanel2.add(mentorname);
-        mentorname.setBounds(260, 130, 440, 22);
+        mentorname.setBounds(260, 130, 440, 24);
 
         mentorqualification.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         mentorqualification.setForeground(new java.awt.Color(255, 255, 255));
         mentorqualification.setText("jLabel5");
         jPanel2.add(mentorqualification);
-        mentorqualification.setBounds(260, 170, 440, 22);
+        mentorqualification.setBounds(260, 170, 440, 24);
 
         mentormobile.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         mentormobile.setForeground(new java.awt.Color(255, 255, 255));
         mentormobile.setText("jLabel5");
         jPanel2.add(mentormobile);
-        mentormobile.setBounds(260, 210, 440, 22);
+        mentormobile.setBounds(260, 210, 440, 24);
 
         mentoremail.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         mentoremail.setForeground(new java.awt.Color(255, 255, 255));
         mentoremail.setText("jLabel5");
         jPanel2.add(mentoremail);
-        mentoremail.setBounds(260, 250, 440, 22);
+        mentoremail.setBounds(260, 250, 440, 24);
 
         mentordepartment.setFont(new java.awt.Font("DejaVu Sans", 1, 18)); // NOI18N
         mentordepartment.setForeground(new java.awt.Color(255, 255, 255));
         mentordepartment.setText("jLabel5");
         jPanel2.add(mentordepartment);
-        mentordepartment.setBounds(260, 290, 440, 22);
+        mentordepartment.setBounds(260, 290, 440, 24);
 
-        signoutbtn.setIcon(new javax.swing.ImageIcon("/home/overlord_96/Music/kik-sign-out--700x200.jpg")); // NOI18N
         signoutbtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         signoutbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -284,17 +284,17 @@ public class MentorPage extends javax.swing.JFrame {
             }
         });
         jPanel3.add(menteeviewbtn);
-        menteeviewbtn.setBounds(730, 30, 150, 27);
+        menteeviewbtn.setBounds(730, 30, 150, 25);
 
         mentormeetdate.setBackground(new java.awt.Color(0, 51, 153));
         jPanel3.add(mentormeetdate);
-        mentormeetdate.setBounds(730, 120, 210, 27);
+        mentormeetdate.setBounds(730, 120, 210, 22);
 
         jLabel9.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("New Meeting Date:");
         jPanel3.add(jLabel9);
-        jLabel9.setBounds(730, 90, 160, 17);
+        jLabel9.setBounds(730, 90, 160, 19);
 
         sendmailbtn.setBackground(new java.awt.Color(0, 51, 153));
         sendmailbtn.setFont(new java.awt.Font("DejaVu Sans", 1, 12)); // NOI18N
@@ -307,7 +307,7 @@ public class MentorPage extends javax.swing.JFrame {
             }
         });
         jPanel3.add(sendmailbtn);
-        sendmailbtn.setBounds(730, 160, 140, 27);
+        sendmailbtn.setBounds(730, 160, 140, 25);
 
         jButton1.setBackground(new java.awt.Color(0, 51, 153));
         jButton1.setFont(new java.awt.Font("DejaVu Sans", 1, 12)); // NOI18N
@@ -319,7 +319,7 @@ public class MentorPage extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jButton1);
-        jButton1.setBounds(730, 230, 170, 27);
+        jButton1.setBounds(730, 230, 170, 25);
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/studentprogresstracking/ed9362deab44ad42b136b654470bbf1d.jpg"))); // NOI18N
         jPanel3.add(jLabel8);

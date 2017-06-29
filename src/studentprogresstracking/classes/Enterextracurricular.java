@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package studentprogresstracking;
+package studentprogresstracking.classes;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
@@ -66,31 +66,31 @@ public class Enterextracurricular extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Activity Name :");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(65, 82, 118, 17);
+        jLabel1.setBounds(65, 82, 102, 19);
 
         jLabel2.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Date :");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(136, 140, 47, 17);
+        jLabel2.setBounds(136, 140, 40, 19);
 
         jLabel5.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Institute Name :");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(58, 188, 125, 17);
+        jLabel5.setBounds(58, 188, 109, 19);
 
         jLabel7.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Achievement :");
         jPanel1.add(jLabel7);
-        jLabel7.setBounds(69, 238, 114, 17);
+        jLabel7.setBounds(69, 238, 100, 19);
         jPanel1.add(extraactname);
-        extraactname.setBounds(211, 77, 269, 27);
+        extraactname.setBounds(211, 77, 269, 22);
         jPanel1.add(extrainstitute);
-        extrainstitute.setBounds(211, 183, 269, 27);
+        extrainstitute.setBounds(211, 183, 269, 22);
         jPanel1.add(extraachieve);
-        extraachieve.setBounds(211, 233, 269, 27);
+        extraachieve.setBounds(211, 233, 269, 22);
 
         addbtn.setBackground(new java.awt.Color(102, 0, 0));
         addbtn.setFont(new java.awt.Font("DejaVu Sans", 1, 12)); // NOI18N
@@ -105,7 +105,7 @@ public class Enterextracurricular extends javax.swing.JFrame {
         jPanel1.add(addbtn);
         addbtn.setBounds(211, 303, 163, 47);
         jPanel1.add(extradate);
-        extradate.setBounds(211, 138, 269, 27);
+        extradate.setBounds(211, 138, 269, 22);
 
         jButton2.setBackground(new java.awt.Color(102, 0, 0));
         jButton2.setFont(new java.awt.Font("DejaVu Sans", 1, 12)); // NOI18N
